@@ -1,6 +1,6 @@
 <?php
 
-namespace Mailjet\Service;
+namespace MobilityWork\Service;
 
 use Zendesk\API\HttpClient as ZendeskAPI;
 
@@ -17,9 +17,9 @@ class ZendeskService extends AbstractService
      * @param string $email
      * @param string $message
      * @param string $reservationNumber
-     * @param \Mailjet\Entity\Hotel $hotel
-     * @param \Mailjet\Entity\Language $language
-     * @param \Mailjet\Entity\DomainConfig $domainConfig
+     * @param \MobilityWork\Entity\Hotel $hotel
+     * @param \MobilityWork\Entity\Language $language
+     * @param \MobilityWork\Entity\DomainConfig $domainConfig
      *
      * @return boolean
      */
